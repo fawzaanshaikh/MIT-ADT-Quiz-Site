@@ -3,9 +3,6 @@ function preventBack() { window.history.forward(); }
 setTimeout("preventBack()", 0);  
 window.onunload = function () { null };
 
-// Function to work when the page loads, makes the buttons disabled
-window.onload = function () {document.getElementById("btn").disabled = true;}
-
 // Check if the radio button is clicked so as to enable the button
 function enableButton() {
     if (document.getElementById("btn").disabled == true) {
