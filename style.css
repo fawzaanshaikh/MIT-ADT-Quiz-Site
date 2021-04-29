@@ -89,11 +89,6 @@ label.radio input:checked+span {
     color: #fff
 }
 
-label.radio input:disabled+span {
-    border-color: blue;
-    background-color: blue;
-    color: #fff
-}
 .ans {
     margin-left: 36px !important
 }
