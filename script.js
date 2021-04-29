@@ -8,12 +8,6 @@ window.onload = function () {document.getElementById("btn").disabled = true;}
 
 // Check if the radio button is clicked so as to enable the button
 function enableButton() {
-    var sa = document.getElementById("sa");
-    var a = document.getElementById("a");
-    var n = document.getElementById("n");
-    var d = document.getElementById("d");
-    var sd = document.getElementById("sd");
-
     if (document.getElementById("btn").disabled == true) {
         document.getElementById("btn").disabled = false;
     }
