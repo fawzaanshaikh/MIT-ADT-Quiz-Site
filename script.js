@@ -44,3 +44,6 @@ function openQuestion27() {window.location.href = "question27.html";}
 function openQuestion28() {window.location.href = "question28.html";}
 function openQuestion29() {window.location.href = "question29.html";}
 function openQuestion30() {window.location.href = "question30.html";}
+
+// Function for after submitting the quiz
+function submitQuiz() {window.location.href = "submit-quiz.html";}
