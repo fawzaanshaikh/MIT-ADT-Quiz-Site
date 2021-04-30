@@ -47,3 +47,10 @@ function openQuestion30() {window.location.href = "question30.html";}
 
 // Function for after submitting the quiz
 function submitQuiz() {window.location.href = "submit-quiz.html";}
+
+// Function to exit the quiz 
+function exitQuiz() {
+    if (confirm("Close Window?")) {
+        window.close();
+    }
+}
