@@ -47,7 +47,5 @@ function submitQuiz() {window.location.href = "submit-quiz.html";}
 
 // Function to exit the quiz 
 function exitQuiz() {
-    if (confirm("Close Window?")) {
-        window.close();
-    }
+    window.location.href = "index.html";
 }
