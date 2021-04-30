@@ -8,9 +8,6 @@ function enableButton() {
     if (document.getElementById("btn").disabled == true) {
         document.getElementById("btn").disabled = false;
     }
-    else {
-        document.getElementById("btn").disabled = true;
-    }
 }
 
 // Functions to work on the "I'm Ready" and "Next" buttons 

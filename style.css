@@ -113,7 +113,7 @@ label.radio input:checked+span {
 
 /* ------------------ */
 
-.container {
+.submit-container {
     position: relative;
     top: 200px;
     background-color: white;
