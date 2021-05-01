@@ -3,6 +3,9 @@ function preventBack() { window.history.forward(); }
 setTimeout("preventBack()", 0);  
 window.onunload = function () { null };
 
+// Timer functionality
+
+
 // Check if the radio button is clicked so as to enable the button
 function enableButton() {
     if (document.getElementById("btn").disabled == true) {
@@ -46,6 +49,4 @@ function openQuestion30() {window.location.href = "question30.html";}
 function submitQuiz() {window.location.href = "submit-quiz.html";}
 
 // Function to exit the quiz 
-function exitQuiz() {
-    window.location.href = "index.html";
-}
+function exitQuiz() {window.location.href = "index.html";}
