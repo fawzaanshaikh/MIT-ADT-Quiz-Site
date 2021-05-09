@@ -136,11 +136,17 @@ label.radio input:checked+span {
 
 /* ------------------ */
 
+footer {
+    position: relative;
+    top: 100px;
+    height: 100px;
+}
+
 .submit-container {
     position: relative;
     top: 50px;
     background-color: white;
-    height: 300px;
+    height: 330px;
     width: 600px;
     margin: auto;
     border: 1px grey solid; 
@@ -152,9 +158,14 @@ label.radio input:checked+span {
     top: 30px;
 }
 
+.appreciate {
+    position: relative;
+    top: 10px;
+}
+
 .exit-button {
     position: relative;
-    top: 60px;
+    top: 50px;
     background-color: #ff5555;
     border: 1px #ff2222 solid;
     border-radius: 5px;
@@ -166,4 +177,10 @@ label.radio input:checked+span {
 
 .exit-button:hover {
     cursor: pointer;
+}
+
+#columnchart_values {
+    position: relative;
+    top: 150px;
+    bottom: 100px;
 }
