@@ -184,3 +184,32 @@ footer {
     top: 150px;
     bottom: 100px;
 }
+
+/* Media queries */
+@media only screen and (max-width: 800px) {
+    .mit-logo {
+        position: relative;
+        height: 250px;
+        width: 500px;
+    }
+    
+    .rules-inner {
+        background-color: white;
+        width: 100vw;
+    }
+
+    .rules-inner-text {
+        font-size: 2vw;
+    }
+
+    ul {
+        position: relative;
+        right: 20px;
+        margin-right: 20px; 
+    }
+
+    .button-container {
+        position: relative;
+        top: 180px;
+    }
+}
